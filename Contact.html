@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="CSS/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap" rel="stylesheet">
+        <title>Contact</title>
+    </head>
+
+    <body class="body_Contact">
+
+        <!--MENU-->
+        <header>
+            <nav class="navig">
+                <a href="Accueil.html">
+                    <div class="logo">
+                    <img src="img/logo.png" alt="logo" class="logo">
+                    </div>
+                </a>
+
+                <ul>
+                    <li >    
+                        <a href="Accueil.html" style="color:blue" > HOME </a>          
+                    </li>
+                    <li >
+                        <a href="#"> PREMIUM </a>  
+                    </li>
+                    <li>    
+                        <a href="#"> SITE LIBRARY </a>  
+                    </li>
+                    <li>    
+                        <a href="install.html" > INSTALL </a>      
+                    </li>
+                    <li>     
+                        <a href="#" class="hoverli"> HELP </a> 
+                        <ul >
+                            <li>     
+                                <a href="#" > DOCUMENTATION </a>    
+                            </li> 
+                            <li>     
+                                <a href="#"> SUPPORT FORUM </a>    
+                            </li> 
+                            <li>     
+                                <a href="Contact.html"> CONTACT </a>    
+                            </li> 
+                        </ul>      
+                    </li>
+                    <li>     
+                        <a href="Contact.html"> Contact </a>    
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--PREMIERE VUE PAGE DE CONTACT-->
+        <div class="contact">
+            <div class="contact_gauche">
+                <p style="font-size: 35px; line-height: 1.5em; margin-bottom: 45px;"><strong> Questions? </strong> We’re here to help you from start to finish.</p>
+                <div class="boutons_contact">
+                    <button class="bouton_documentation">Documentation</button>
+                    <button class="bouton_support_forum">Support forum</button>
+                </div>
+            </div>
+            <div class="contact_droite">
+                <img class="contact_img" src="img/contact.svg" alt="Image Contact"/>
+            </div>
+        </div>
+
+        <!--GRANDES BOX-->
+        <div class="grandes_box">
+            <div class="box1">
+                <h1>Pre-Sale Question</h1>
+                <p>Have a question before making your purchase?</p>
+            </div>
+
+            <div class="box2">
+                <h1>Account Issue</h1>
+                <p>Having an issue with your account? Let us know.</p>
+            </div>
+
+            <div class="box3">
+                <h1>Support Question</h1>
+                <p>Need technical support? We’re here to help.</p>
+            </div>
+        </div>
+
+        <!--FORMULAIRE-->
+        <div class="formulaire_contact">
+            <div class="formulaire">
+                 <h1>Pre-Sale Question</h1>
+                <p> <b>Note:</b> This form is for pre-sale questions only. Support questions should be asked in the forums.</p>
+                <p> Fields marked with an <span style="color: red">* </span>are required</p>
+                <form action="#" method="POST" enctype="multipart/form-data" id="formulaire">
+                    <table class="table">
+                         <tr>
+                             <td>   <label for="username">Name<span style="color: red">* </span></label></td> 
+                        </tr>
+                        <tr><td> <input type="text" id="username" name="username" style="width:750px; height:50px;background-color:whitesmoke ;border-radius:6px;" required/> </td> </tr>
+                        <tr>  
+                            <td>    <label for="email">Email<span style="color: red">* </span></label></td>
+                        </tr>
+                        <tr>
+                            <td>  <input type="email" class="champ"  id="email" name="email" style="width:750px; height:50px; background-color:whitesmoke;border-radius:6px ;" required/> </td>
+                        </tr>
+                        <tr>
+                        <td> <label for="question">Your Question<span style="color: red">* </span></label></td>
+                        </tr>
+                        <tr>
+                            <td><textarea id="question" name="question" style="width:750px; height:200px; border-radius:6px;background-color:whitesmoke ;" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="case1"></label></td>
+                        </tr>
+                        <tr>
+                        <td><input type="checkbox" id="case1" name="case2" value="support" required/>This is not a technical support question<span style="color: red">* </span></td>
+                        </tr>
+                        <tr>
+                             <td> <input type="checkbox" id="case2" name="case2" value="support" required/>Agree to our <span style="color:blue">privacy policy<span style="color: red">* </span></span></td>
+                        </tr>
+                        <tr> 
+                            <td> <label for="calcul">1+1= <span style="color: red">* </span></label></td>
+                        </tr>
+                        <tr>
+                         <td> <input type="text" id="calcul" name="calcul"  class="champ" style="width:750px; height:50px; border-radius:6px; background-color:whitesmoke ;"  required></td>
+                        </tr>
+                        <tr>
+                            <td><button type="submit" class="bouton"> Submit</button> </td>
+                         </tr>   
+                    </table>
+                </form>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="genaratepress">
+                <ul class="ul_generatepress">
+                    <li class="li_titre"><strong>GENERATEPRESS</strong></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="#">Site Library</a></li>
+                    <li><a href="#">Gutenberg</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Brand Assets</a></li>
+                    <li><a href="#">Translate</a></li>
+                </ul>
+            </div>
+
+            <div class="support">
+                <ul class="ul_support">
+                    <li class="li_titre"><strong>SUPPORT</strong></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Support Forums</a></li>
+                    <li><a href="#">Fastest Wordpress Theme</a></li>
+                    <li><a href="#">Changelogs</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Donate</a></li>
+                </ul>
+            </div>
+
+            <div class="popular_faqs">
+                <ul class="ul_popular_faqs">
+                    <li class="li_titre"><strong>POPULAR FAQS</strong></li>
+                    <li><a href="#">Install GeneratePress</a></li>
+                    <li><a href="#">Installing GP Premium</a></li>
+                    <li><a href="#">Missing style.cs</a></li>
+                    <li><a href="#">Plugin Install Failed</a></li>
+                    <li><a href="#">Adding CSS</a></li>
+                    <li><a href="#">Adding PHP</a></li>
+                    <li><a href="#">WordPress Hosting</a></li>
+                </ul>
+            </div>
+
+            <div class="social">
+                <ul class="ul_popular_faqs">
+                    <li class="li_titre"><strong>SOCIAL</strong></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <div class="bas_footer">
+            <p>with love on Vancouver Island</p>
+            <p style="font-size: 11px;">Animation mode</p>
+        </div>
+
+    </body>
+</html>

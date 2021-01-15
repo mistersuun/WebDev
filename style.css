@@ -1,0 +1,429 @@
+.body_Accueil, .body_Contact{
+    font-family: 'Catamaran', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*MENU*/
+header{
+   width: 100%; 
+   height: 85px;
+}
+
+.navig{
+    background-color:  rgb(238, 251, 255);
+    color: black;
+}
+
+nav.navig ul {
+    list-style: none;
+    margin: 10px;
+    padding:5px;
+    float:right;
+}
+nav.navig ul li{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+nav.navig ul li a{
+    display:block;
+    color:black;
+}
+nav.navig ul li a:hover{
+    color: #002fff;
+}
+nav.navig ul li ul li{
+    display: none; 
+}
+
+nav.navig ul li:hover ul li{
+    display:flex;
+}
+.logo{
+    float: left;
+    width: auto;
+    height:50px; 
+    background-color: white;  
+}
+
+
+/*PREMIERE VUE PAGE D'ACCUEIL ET DE CONTACT*/
+.accueil, .contact{
+    height: 460px;
+    background-color: rgb(238, 251, 255);
+    display: flex;
+}
+
+.accueil_gauche{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.contact_gauche{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.bouton_install, .bouton_documentation, .bouton_premium, .bouton_support_forum{
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.bouton_install, .bouton_documentation{
+    background-color: rgb(123, 168, 31);
+    color: white;
+    border-style: none;
+    margin-right: 30px;
+}
+.bouton_premium:hover,.bouton_support_forum:hover{
+    background-color:rgb(0, 174, 255);
+}
+.bouton_install:hover{
+    background-color: rgba(255, 166, 0, 0.712);
+}
+.bouton_documentation:hover{
+    background-color: rgba(255, 166, 0, 0.712);
+}
+
+.bouton_premium, .bouton_support_forum{
+    border-style: outset;
+    background-color: rgb(238, 251, 255);
+}
+
+.accueil_droite, .contact_droite{
+    padding-left: 80px;
+}
+
+.accueil_img, .contact_img{
+    width: 650px;
+    height: 520px;
+}
+.boutons_accueil{
+    display:flex;
+}
+.statistiques{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.etoiles{
+width: 60px
+}
+
+/*HOW DOES IT WORK*/
+.how_does_it_work{
+    height: 450px;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.hdiw_gauche{
+    padding-right: 85px;
+}
+
+.hdiw_img{
+    width: 550px;
+    height: 320px;
+    border-radius: 4px;
+    box-shadow: 8px 8px 8px #aaa;
+}
+
+.hdiw_droite{
+    padding-top: 35px;
+}
+
+.bouton_watch{
+    border-style: ridge;
+    border-color: rgb(117, 114, 114);
+    border-radius: 5px;
+    background-color:white;
+    width: 70px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 4px;
+    text-align: center;
+}
+.bouton_watch:hover{
+    background-color:  rgb(0, 174, 255);
+}
+.hdiw_droite a{
+    color: black;
+}
+
+/*Grandes box*/
+.grandes_box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.box1, .box2, .box3{
+    padding: 10px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.box2, .box3{
+    background-color: whitesmoke;
+}
+
+/*Performance Focus AND User friendly*/
+.performance_focused, .user_friendly{
+    height: 1100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.user_friendly{
+    padding-top: 70px;
+}
+
+.performance_focused_titre, .user_friendly_titre{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.carres_performance, .carre_user{
+ font-size: medium;   
+}
+
+.row1_carres, .row2_carres{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.carre{
+   margin-right: 30px; 
+}
+
+.carre_img{
+    width: 310px;
+    height: 150px;
+}
+
+.carre_titre{
+    font-size: 25px;
+}
+
+/*GP PREMIUM (ZONE BLEUE)*/
+.zone_bleue{
+    display: flex;
+    background-color: #1e72bd;
+    padding-top: 70px;
+    padding-left: 270px;
+    height: 450px;
+}
+
+
+.ul_gp_gauche{
+    color: white;
+    line-height: 2.5em;
+    list-style: none;
+    padding-right: 130px;
+}
+
+.li_gp_titre{
+    font-size: 40px;
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+.li_gp_texte{
+    padding-bottom: 30px;
+    list-style: none;
+}
+
+.gp_droite{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.happy_halloween{
+    background-color: rgb(236, 100, 20);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.ancien_prix{
+    padding: 0;
+}
+
+.nouveau_prix{
+    font-size: 30px;
+    padding-top: 0;
+}
+
+.add_to_cart{
+    background-color: rgb(123, 168, 31);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.add_to_cart:hover{
+    background-color: rgba(255, 166, 0, 0.712);
+}
+.learn_more{
+    font-size: 12px;
+}
+
+/*OUR USERS LOVE US*/
+.our_users{
+    height:1000px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.row1_carres_our_users, .row2_carres_our_users{
+    display: flex;
+    text-align: left;
+    margin-bottom: 90px;
+    
+}
+
+.image_gauche{
+    padding-right: 10px;
+}
+
+.carre_our_users{
+    display: flex;
+    margin-right: 50px;
+}
+
+.carre_our_users_img{
+    overflow: hidden;
+    -webkit-border-radius:110px;
+    -moz-border-radius:110px;
+    border-radius: 110px;
+    width: 110px;
+    height: 110px;
+}
+
+.texte_doite{
+    text-align: left;
+}
+/*FOOTER*/
+
+.footer{
+    background-color: #1b212b;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+.ul_generatepress, .ul_support, .ul_popular_faqs{
+    list-style-type: none;
+    padding-right: 100px;
+    text-align: left;
+    line-height: 2em;
+}
+
+.li_titre{
+    padding-bottom: 40px;
+}
+
+.bas_footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 0.5em;
+}
+
+/*FORMULAIRE CONTACT*/
+.formulaire_contact{
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+    text-align:justify;
+}
+
+.formulaire{
+    margin: 0 auto;
+    width: 800px;
+    padding: 30px;
+}
+
+.bouton{
+    width:100px; 
+    height:50px; 
+    background-color:rgb(123, 168, 31);;
+    border-radius:6px;
+    }
+
+.bouton:hover{
+    background-color: orange;
+}
+
+.table{
+    border: none;
+    border-spacing : 20px;
+}
+
+.champ{
+    height: 50px;
+    width: 300px;
+    font-size: 3.5em;
+}
+
+/*page install*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 270px;
+    text-align: center;
+  }
+  
+  .center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 330px;
+  }
+  
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 80px;
+  }
+  
+  .center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 80px;
+  }
